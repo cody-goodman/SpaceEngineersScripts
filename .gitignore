@@ -1,5 +1,4 @@
 .vs/
-SpaceEngineersScripts.sln
 *.cache
 *.zip
 *.exe
@@ -9,4 +8,3 @@ SpaceEngineersScripts.sln
 **/MDK/**
 **/obj/**
 **/bin/**
-*.csproj
