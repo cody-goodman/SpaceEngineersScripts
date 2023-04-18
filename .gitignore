@@ -1,0 +1,12 @@
+.vs/
+SpaceEngineersScripts.sln
+*.cache
+*.zip
+*.exe
+*.dll
+*.pdb
+*.exe.config
+**/MDK/**
+**/obj/**
+**/bin/**
+*.csproj
