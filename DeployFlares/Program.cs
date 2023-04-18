@@ -1,13 +1,13 @@
-﻿using System;
+﻿using Sandbox.Game.EntityComponents;
+using Sandbox.ModAPI.Ingame;
+using Sandbox.ModAPI.Interfaces;
+using SpaceEngineers.Game.ModAPI.Ingame;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
 using System.Text;
-using Sandbox.Game.EntityComponents;
-using Sandbox.ModAPI.Ingame;
-using Sandbox.ModAPI.Interfaces;
-using SpaceEngineers.Game.ModAPI.Ingame;
 using VRage;
 using VRage.Collections;
 using VRage.Game;
@@ -30,13 +30,15 @@ namespace IngameScript
 
                 List<IMyBlockGroup> flares = new List<IMyBlockGroup>();
                 GridTerminalSystem.GetBlockGroups(flares, group => group.Name.Contains(_commandLine.Argument(0)));
-                if(_commandLine.Switch("-all"))
+                if (_commandLine.Switch("-all"))
                 {
                     flares.ForEach(DeployFlare);
-                }else if (flares.Count > 0)
+                }
+                else if (flares.Count > 0)
                 {
                     DeployFlare(flares[0]);
-                }else
+                }
+                else
                 {
                     Echo("No Flares Found");
                 }

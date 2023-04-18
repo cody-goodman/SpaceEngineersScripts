@@ -1,13 +1,13 @@
-﻿using System;
+﻿using Sandbox.Game.EntityComponents;
+using Sandbox.ModAPI.Ingame;
+using Sandbox.ModAPI.Interfaces;
+using SpaceEngineers.Game.ModAPI.Ingame;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
 using System.Text;
-using Sandbox.Game.EntityComponents;
-using Sandbox.ModAPI.Ingame;
-using Sandbox.ModAPI.Interfaces;
-using SpaceEngineers.Game.ModAPI.Ingame;
 using VRage;
 using VRage.Collections;
 using VRage.Game;
@@ -34,7 +34,8 @@ namespace IngameScript
             else if (connectors.Exists(IsLocked))
             {
                 Undock(connectors.Find(IsLocked));
-            }else
+            }
+            else
             {
                 Reset();
             }
@@ -79,7 +80,7 @@ namespace IngameScript
             gasTanks.ForEach(gasTank => gasTank.Stockpile = true);
             thrusters.ForEach(thruster => thruster.Enabled = false);
             lights.ForEach(light => light.Enabled = false);
-            
+
         }
 
         private void Undock(IMyShipConnector connector)

@@ -3,48 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33423.256
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDock", "AutoDock\AutoDock.csproj", "{89C2604E-87C0-4443-9362-BDBB44860F68}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatteryManager", "BatteryManager\BatteryManager.csproj", "{84E7E3CD-B32B-4E33-BF81-F4820C3C5AB1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRename", "AutoRename\AutoRename.csproj", "{304F0BEC-4695-4D54-BAF5-08F0CDA60F3F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectionComponentsAssembly", "ProjectionComponentsAssembly\ProjectionComponentsAssembly.csproj", "{0EF981A7-0939-4D5B-B4E3-80A1B09108E6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployBeacon", "DeployBeacon\DeployBeacon.csproj", "{B78C2024-1DDF-48E3-8A6D-71E314DCD00C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasePowerProductionManager", "BaseEngineManager\BasePowerProductionManager.csproj", "{ED14EA4F-095E-4F5F-8A47-7C8F498E0C01}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployFlares", "DeployFlares\DeployFlares.csproj", "{5BBA9DEC-C220-46BC-9912-EE7EA078EDED}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenHangarDoors", "OpenHangarDoors\OpenHangarDoors.csproj", "{2003F79C-9B54-471A-A1CA-DA7E82327BBF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4C491BD-448C-431E-B714-91A31EFF505A}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDock", "AutoDock\AutoDock.csproj", "{F769CC87-1C55-43DF-A79A-08E0485E9C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRename", "AutoRename\AutoRename.csproj", "{7D925FE9-B3E5-431C-85C1-BC8CC748AF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGenerationManager", "PowerGenerationManager\PowerGenerationManager.csproj", "{CE8C33DB-3A59-475C-B86E-5F6FB28C965B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployFlares", "DeployFlares\DeployFlares.csproj", "{C2CE2A30-476F-4BE7-BACF-ACB08A7B5AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCHangarDoors", "RCHangarDoors\RCHangarDoors.csproj", "{7C02C870-FA43-4FAF-84BB-9596C7D6CEB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssembleProjectionComponents", "AssembleProjectionComponents\AssembleProjectionComponents.csproj", "{9198A134-4BBC-4C82-B6D4-998A5A738A09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployBeacon", "DeployBeacon\DeployBeacon.csproj", "{A20D437B-A4A9-4C43-BF52-4CB444FAD430}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{89C2604E-87C0-4443-9362-BDBB44860F68}.Debug|x64.ActiveCfg = Debug|x64
-		{89C2604E-87C0-4443-9362-BDBB44860F68}.Debug|x64.Build.0 = Debug|x64
-		{84E7E3CD-B32B-4E33-BF81-F4820C3C5AB1}.Debug|x64.ActiveCfg = Debug|x64
-		{84E7E3CD-B32B-4E33-BF81-F4820C3C5AB1}.Debug|x64.Build.0 = Debug|x64
-		{304F0BEC-4695-4D54-BAF5-08F0CDA60F3F}.Debug|x64.ActiveCfg = Debug|x64
-		{304F0BEC-4695-4D54-BAF5-08F0CDA60F3F}.Debug|x64.Build.0 = Debug|x64
-		{0EF981A7-0939-4D5B-B4E3-80A1B09108E6}.Debug|x64.ActiveCfg = Debug|x64
-		{0EF981A7-0939-4D5B-B4E3-80A1B09108E6}.Debug|x64.Build.0 = Debug|x64
-		{B78C2024-1DDF-48E3-8A6D-71E314DCD00C}.Debug|x64.ActiveCfg = Debug|x64
-		{B78C2024-1DDF-48E3-8A6D-71E314DCD00C}.Debug|x64.Build.0 = Debug|x64
-		{ED14EA4F-095E-4F5F-8A47-7C8F498E0C01}.Debug|x64.ActiveCfg = Debug|x64
-		{ED14EA4F-095E-4F5F-8A47-7C8F498E0C01}.Debug|x64.Build.0 = Debug|x64
-		{5BBA9DEC-C220-46BC-9912-EE7EA078EDED}.Debug|x64.ActiveCfg = Debug|x64
-		{5BBA9DEC-C220-46BC-9912-EE7EA078EDED}.Debug|x64.Build.0 = Debug|x64
-		{2003F79C-9B54-471A-A1CA-DA7E82327BBF}.Debug|x64.ActiveCfg = Debug|x64
-		{2003F79C-9B54-471A-A1CA-DA7E82327BBF}.Debug|x64.Build.0 = Debug|x64
+		{F769CC87-1C55-43DF-A79A-08E0485E9C8D}.Debug|x64.ActiveCfg = Debug|x64
+		{F769CC87-1C55-43DF-A79A-08E0485E9C8D}.Debug|x64.Build.0 = Debug|x64
+		{7D925FE9-B3E5-431C-85C1-BC8CC748AF89}.Debug|x64.ActiveCfg = Debug|x64
+		{7D925FE9-B3E5-431C-85C1-BC8CC748AF89}.Debug|x64.Build.0 = Debug|x64
+		{CE8C33DB-3A59-475C-B86E-5F6FB28C965B}.Debug|x64.ActiveCfg = Debug|x64
+		{CE8C33DB-3A59-475C-B86E-5F6FB28C965B}.Debug|x64.Build.0 = Debug|x64
+		{C2CE2A30-476F-4BE7-BACF-ACB08A7B5AE0}.Debug|x64.ActiveCfg = Debug|x64
+		{C2CE2A30-476F-4BE7-BACF-ACB08A7B5AE0}.Debug|x64.Build.0 = Debug|x64
+		{7C02C870-FA43-4FAF-84BB-9596C7D6CEB2}.Debug|x64.ActiveCfg = Debug|x64
+		{7C02C870-FA43-4FAF-84BB-9596C7D6CEB2}.Debug|x64.Build.0 = Debug|x64
+		{9198A134-4BBC-4C82-B6D4-998A5A738A09}.Debug|x64.ActiveCfg = Debug|x64
+		{9198A134-4BBC-4C82-B6D4-998A5A738A09}.Debug|x64.Build.0 = Debug|x64
+		{A20D437B-A4A9-4C43-BF52-4CB444FAD430}.Debug|x64.ActiveCfg = Debug|x64
+		{A20D437B-A4A9-4C43-BF52-4CB444FAD430}.Debug|x64.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
