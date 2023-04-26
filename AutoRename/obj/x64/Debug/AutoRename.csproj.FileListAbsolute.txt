@@ -21,4 +21,3 @@ C:\Users\goodm\source\repos\SpaceEngineersScripts\AutoRename\obj\x64\Debug\AutoR
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AutoRename\obj\x64\Debug\AutoRename.csproj.CopyComplete
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AutoRename\obj\x64\Debug\AutoRename.exe
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AutoRename\obj\x64\Debug\AutoRename.pdb
-C:\Users\goodm\source\repos\SpaceEngineersScripts\AutoRename\obj\x64\Debug\AutoRename.csproj.AssemblyReference.cache

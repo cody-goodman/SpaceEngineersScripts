@@ -16,7 +16,6 @@ C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\bin\SixLabors.Cor
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\bin\System.Numerics.Vectors.dll
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\bin\SixLabors.ImageSharp.xml
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\bin\SixLabors.Core.xml
-C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\obj\x64\Debug\DeployBeacon.csproj.AssemblyReference.cache
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\obj\x64\Debug\DeployBeacon.exe.config
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\obj\x64\Debug\DeployBeacon.csproj.CoreCompileInputs.cache
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\obj\x64\Debug\DeployBeacon.csproj.CopyComplete

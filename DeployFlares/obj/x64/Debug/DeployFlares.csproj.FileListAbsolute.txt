@@ -21,4 +21,3 @@ C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\Dep
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\DeployFlares.csproj.CopyComplete
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\DeployFlares.exe
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\DeployFlares.pdb
-C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\DeployFlares.csproj.AssemblyReference.cache

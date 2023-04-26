@@ -16,13 +16,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerGenerationManager", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployFlares", "DeployFlares\DeployFlares.csproj", "{C2CE2A30-476F-4BE7-BACF-ACB08A7B5AE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCHangarDoors", "RCHangarDoors\RCHangarDoors.csproj", "{7C02C870-FA43-4FAF-84BB-9596C7D6CEB2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssembleProjectionComponents", "AssembleProjectionComponents\AssembleProjectionComponents.csproj", "{9198A134-4BBC-4C82-B6D4-998A5A738A09}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployBeacon", "DeployBeacon\DeployBeacon.csproj", "{A20D437B-A4A9-4C43-BF52-4CB444FAD430}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDoorListener", "RemoteDoorListener\RemoteDoorListener.csproj", "{3F34BDAA-9CB3-4022-81D7-8AA7667B6499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDoorController", "RemoteDoorController\RemoteDoorController.csproj", "{00E0662F-595A-42D0-9469-BB4C336DAF5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +37,14 @@ Global
 		{CE8C33DB-3A59-475C-B86E-5F6FB28C965B}.Debug|x64.Build.0 = Debug|x64
 		{C2CE2A30-476F-4BE7-BACF-ACB08A7B5AE0}.Debug|x64.ActiveCfg = Debug|x64
 		{C2CE2A30-476F-4BE7-BACF-ACB08A7B5AE0}.Debug|x64.Build.0 = Debug|x64
-		{7C02C870-FA43-4FAF-84BB-9596C7D6CEB2}.Debug|x64.ActiveCfg = Debug|x64
-		{7C02C870-FA43-4FAF-84BB-9596C7D6CEB2}.Debug|x64.Build.0 = Debug|x64
 		{9198A134-4BBC-4C82-B6D4-998A5A738A09}.Debug|x64.ActiveCfg = Debug|x64
 		{9198A134-4BBC-4C82-B6D4-998A5A738A09}.Debug|x64.Build.0 = Debug|x64
 		{A20D437B-A4A9-4C43-BF52-4CB444FAD430}.Debug|x64.ActiveCfg = Debug|x64
 		{A20D437B-A4A9-4C43-BF52-4CB444FAD430}.Debug|x64.Build.0 = Debug|x64
 		{3F34BDAA-9CB3-4022-81D7-8AA7667B6499}.Debug|x64.ActiveCfg = Debug|x64
 		{3F34BDAA-9CB3-4022-81D7-8AA7667B6499}.Debug|x64.Build.0 = Debug|x64
+		{00E0662F-595A-42D0-9469-BB4C336DAF5D}.Debug|x64.ActiveCfg = Debug|x64
+		{00E0662F-595A-42D0-9469-BB4C336DAF5D}.Debug|x64.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
