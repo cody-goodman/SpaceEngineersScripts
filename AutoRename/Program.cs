@@ -19,8 +19,8 @@ namespace IngameScript
             {
                 if (_commandLine.ArgumentCount > 0)
                 {
-                    tag = "<" + _commandLine.Argument(0) + ">";
-                    Echo("Using Supplied Name as Tag: " + tag);
+                    tag = _commandLine.Argument(0);
+                    Echo("Using Supplied Tag: " + tag);
                 }
                 else
                 {
@@ -51,38 +51,28 @@ namespace IngameScript
 
         private void RenameBlock(IMyTerminalBlock block, string tag, string oldTag, Dictionary<string, int> names)
         {
-            string baseName = GetBaseName(block, oldTag);
-            block.CustomName = tag + " " + baseName + GetNumber(names, baseName);
+            string baseName = GetBaseName(block, tag, oldTag);
+            string name = baseName + GetNumber(names, baseName);
+            if (_commandLine.Switch("suffix"))
+                block.CustomName = name + " " + tag;
+            else
+                block.CustomName = tag + " " + name;
         }
 
-        private string GetBaseName(IMyTerminalBlock block, string oldTag)
+        private string GetBaseName(IMyTerminalBlock block, string tag, string oldTag)
         {
 
             if (_commandLine.Switch("resetNames"))
-            {
                 return block.DefinitionDisplayNameText;
-            }
-            string baseName;
-            if (!String.IsNullOrWhiteSpace(oldTag))
-            {
-                int index = block.CustomName.LastIndexOf(oldTag);
-                index = index > 0 ? index : block.CustomName.LastIndexOf("<" + oldTag + ">");
-                if (index > 0)
-                {
-                    baseName = block.CustomName.Substring(index + 1);
-                }
-                else
-                {
-                    baseName = block.CustomName;
-                }
-            }
-            else
-            {
-                baseName = block.CustomName;
-            }
-            // if reset numbers switch is active then trim any numbers from the end of the string
-            if (_commandLine.Switch("resetNumbers")) System.Text.RegularExpressions.Regex.Replace(baseName, "\\s\\d+$", "");
-            return baseName;
+
+            // Remove old tag if present
+            string baseName = String.IsNullOrWhiteSpace(oldTag) ? block.CustomName : block.CustomName.Replace(oldTag, String.Empty);
+            // Remove any existing duplicates of current tag
+            baseName = String.IsNullOrWhiteSpace(tag) ? baseName : baseName.Replace(tag, String.Empty);
+
+            // Strip numbers off the end
+            System.Text.RegularExpressions.Regex.Replace(baseName, "\\s\\d+$", "");
+            return baseName.Trim();
 
         }
 
