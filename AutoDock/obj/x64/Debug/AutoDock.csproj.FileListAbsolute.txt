@@ -21,3 +21,4 @@ C:\Users\goodm\source\repos\SpaceEngineersScripts\AutoDock\obj\x64\Debug\AutoDoc
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AutoDock\obj\x64\Debug\AutoDock.csproj.CopyComplete
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AutoDock\obj\x64\Debug\AutoDock.exe
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AutoDock\obj\x64\Debug\AutoDock.pdb
+C:\Users\goodm\source\repos\SpaceEngineersScripts\AutoDock\obj\x64\Debug\AutoDock.csproj.AssemblyReference.cache

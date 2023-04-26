@@ -1,10 +1,6 @@
 .vs/
-*.cache
 *.zip
+*.cache
+*/MDK/MDK.paths.props
 *.exe
-*.dll
-*.pdb
-*.exe.config
-**/obj/**
-**/bin/**
-**/MDK.paths.props
+*/bin/*
