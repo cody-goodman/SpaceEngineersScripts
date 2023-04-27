@@ -21,3 +21,4 @@ C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\o
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\obj\x64\Debug\AssembleProjectionComponents.csproj.CopyComplete
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\obj\x64\Debug\AssembleProjectionComponents.exe
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\obj\x64\Debug\AssembleProjectionComponents.pdb
+C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\obj\x64\Debug\AssembleProjectionComponents.csproj.AssemblyReference.cache

@@ -1,5 +1,12 @@
 ﻿R e a d m e
 -----------
 
-In this file you can include any instructions or other comments you want to have injected onto the 
-top of your final script. You can safely delete this file if you do not want any such comments.
+This script is used to manage the power generation of a base. Mainlg it turns non-renewable power generators on/off when certain configurable parameters are met.
+
+All config parameters can be set through the Programming Blocks' Custom Data. The parameters are listed below.
+
+config.minHydrogenStorage=  The minimum percentage of hydrogen storage necessary to maintain. If hydrogen drops below this level the hydrogen engines will be turned off.
+config.minPowerStorage=     The minimum pf power storage as a percentage of total battery capacity on the grid. When power storage drops below this level the power generators will be turned on.
+config.generatorCutoff=     The amount of power storage as a percent of total battery capacity that when reached will turn off the power generators to conserve fuel.
+config.maxGenerators=       The maximum number of power generators to have running at any given moment.
+

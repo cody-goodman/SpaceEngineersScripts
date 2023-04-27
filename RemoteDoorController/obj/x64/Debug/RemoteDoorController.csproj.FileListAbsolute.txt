@@ -21,3 +21,4 @@ C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\bin\SixLa
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.csproj.CopyComplete
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.exe
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.pdb
+C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.csproj.AssemblyReference.cache

@@ -1,0 +1,8 @@
+﻿R e a d m e
+-----------
+
+This script is used in conjunction with the RemoteDoorController script to provide remote controlled opening of doors.
+
+This script should be set on a ProgrammingBlock on the grid with doors that you want to be able to open remotely. It will listen for signals from the RemoteDoorController and perform the appropriate actions.
+
+**Note that the grid must have an antenna and the RemoteDoorController grid must have its own antenna and they must be in range of each other for commands to work.

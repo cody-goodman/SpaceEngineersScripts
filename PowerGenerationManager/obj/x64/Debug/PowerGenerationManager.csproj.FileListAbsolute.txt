@@ -21,3 +21,4 @@ C:\Users\goodm\source\repos\SpaceEngineersScripts\PowerGenerationManager\obj\x64
 C:\Users\goodm\source\repos\SpaceEngineersScripts\PowerGenerationManager\obj\x64\Debug\PowerGenerationManager.csproj.CopyComplete
 C:\Users\goodm\source\repos\SpaceEngineersScripts\PowerGenerationManager\obj\x64\Debug\PowerGenerationManager.exe
 C:\Users\goodm\source\repos\SpaceEngineersScripts\PowerGenerationManager\obj\x64\Debug\PowerGenerationManager.pdb
+C:\Users\goodm\source\repos\SpaceEngineersScripts\PowerGenerationManager\obj\x64\Debug\PowerGenerationManager.csproj.AssemblyReference.cache

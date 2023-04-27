@@ -1,5 +1,23 @@
 ﻿R e a d m e
 -----------
+This Script is used to update the names of all terminal blocks on a grid. 
+This can be used to add or replace a "Tag" on the names to aid in identifying which grid a block belongs to when connected to other grids.
+
 
 Arguments
-1) Tag: the tag is used as a prefix 
+1) Tag: the tag to add to all TerminalBlock names on the current grid. (This will default to the name of the grid surrounded by '<>' if not provided)
+2) Old Tag: provide this argument if there was an old tag on the block names that you'd like removed and replaced with the new tag
+
+Switches
+-resetNames: This switch will replace all custom block names with their default display text then add the tag 
+-suffix: Puts the Tag at the end of the block name insteaad of the beginning
+
+
+Examples:
+
+The below argument will reset the names of all the blocks back to their default display text and add the name of the grid as a tag at the begining of each block name
+-resetNames
+
+
+The below string of arguments will add the "<Mining Drone>" tag (without the quotes) to the end of each terminal block name and remove an instance of the string "<Miner>" (without the quotes) in the block names.
+"<Mining Drone>" "<Miner>" -suffix

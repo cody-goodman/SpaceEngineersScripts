@@ -21,3 +21,4 @@ C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\obj\x64\Debug\Dep
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\obj\x64\Debug\DeployBeacon.csproj.CopyComplete
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\obj\x64\Debug\DeployBeacon.exe
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\obj\x64\Debug\DeployBeacon.pdb
+C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployBeacon\obj\x64\Debug\DeployBeacon.csproj.AssemblyReference.cache

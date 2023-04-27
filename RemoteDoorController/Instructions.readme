@@ -1,5 +1,15 @@
 ﻿R e a d m e
 -----------
 
-In this file you can include any instructions or other comments you want to have injected onto the 
-top of your final script. You can safely delete this file if you do not want any such comments.
+This script is used in conjunction with the RemoteDoorReceiver script to be able to open/close doors remotely. 
+This script and its companion script muse be running on grids that have antennas and are in range of each other to work properly.
+By default a group of doors is targeted and its open/closed state is toggled. To modify this behavior use the switches listed below.
+
+Arguments
+1) name of door or target group of doors
+
+Switches
+
+-single : targets a single door instead of a group
+-open   : forces the door to be open instead of toggling state
+-closed : forces the door to be closed insteaad of toggling state

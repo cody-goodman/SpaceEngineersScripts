@@ -1,5 +1,23 @@
 ﻿R e a d m e
 -----------
 
-In this file you can include any instructions or other comments you want to have injected onto the 
-top of your final script. You can safely delete this file if you do not want any such comments.
+This script is inteded to help with docking/undocking ships. Execute this script with no arguments when in range of a connector or when already connected to dock/undock the ship.
+
+The script does the following.
+
+When Docking:
+1) Locks connector
+2) Sets all batteries to Recharge mode
+3) Sets all Gas tanks to Stockpile
+4) Turns off all thrusters
+5) Turns off all lights
+
+When Undocking:
+1) Sets all batteries to Auto mode
+2) Sets stockpile to off for all gas tanks
+3) turns on all thrusters
+4) unlocks connector
+
+
+You can also run this script when not connected and not in range of a connector to reset your ship's state to have everything on and running. This is useful in case soemthing happens to the docking process that leaves your ship in a docked state when no longer docked (such as the connector being destroyed).
+
