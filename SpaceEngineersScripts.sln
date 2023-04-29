@@ -20,11 +20,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssembleProjectionComponent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployBeacon", "DeployBeacon\DeployBeacon.csproj", "{A20D437B-A4A9-4C43-BF52-4CB444FAD430}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDoorListener", "RemoteDoorListener\RemoteDoorListener.csproj", "{3F34BDAA-9CB3-4022-81D7-8AA7667B6499}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDoorController", "RemoteDoorController\RemoteDoorController.csproj", "{00E0662F-595A-42D0-9469-BB4C336DAF5D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDoorReceiver", "RemoteDoorReceiver\RemoteDoorReceiver.csproj", "{0717AB8C-1358-47B4-85F9-C0B66A7F1334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydroHauler", "HydroHauler\HydroHauler.csproj", "{7D3E25FA-E474-4969-96AE-B4301A094AC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,12 +43,12 @@ Global
 		{9198A134-4BBC-4C82-B6D4-998A5A738A09}.Debug|x64.Build.0 = Debug|x64
 		{A20D437B-A4A9-4C43-BF52-4CB444FAD430}.Debug|x64.ActiveCfg = Debug|x64
 		{A20D437B-A4A9-4C43-BF52-4CB444FAD430}.Debug|x64.Build.0 = Debug|x64
-		{3F34BDAA-9CB3-4022-81D7-8AA7667B6499}.Debug|x64.ActiveCfg = Debug|x64
-		{3F34BDAA-9CB3-4022-81D7-8AA7667B6499}.Debug|x64.Build.0 = Debug|x64
 		{00E0662F-595A-42D0-9469-BB4C336DAF5D}.Debug|x64.ActiveCfg = Debug|x64
 		{00E0662F-595A-42D0-9469-BB4C336DAF5D}.Debug|x64.Build.0 = Debug|x64
 		{0717AB8C-1358-47B4-85F9-C0B66A7F1334}.Debug|x64.ActiveCfg = Debug|x64
 		{0717AB8C-1358-47B4-85F9-C0B66A7F1334}.Debug|x64.Build.0 = Debug|x64
+		{7D3E25FA-E474-4969-96AE-B4301A094AC9}.Debug|x64.ActiveCfg = Debug|x64
+		{7D3E25FA-E474-4969-96AE-B4301A094AC9}.Debug|x64.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

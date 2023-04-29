@@ -1,5 +1,3 @@
-C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.exe.config
-C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.csproj.CoreCompileInputs.cache
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\bin\MDK\MDK.options.props
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\bin\MDK\MDK.paths.props
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\bin\RemoteDoorController.exe.config
@@ -18,7 +16,9 @@ C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\bin\SixLa
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\bin\System.Numerics.Vectors.dll
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\bin\SixLabors.ImageSharp.xml
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\bin\SixLabors.Core.xml
+C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.csproj.AssemblyReference.cache
+C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.exe.config
+C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.csproj.CoreCompileInputs.cache
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.csproj.CopyComplete
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.exe
 C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.pdb
-C:\Users\goodm\source\repos\SpaceEngineersScripts\RemoteDoorController\obj\x64\Debug\RemoteDoorController.csproj.AssemblyReference.cache

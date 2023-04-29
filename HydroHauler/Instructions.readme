@@ -1,0 +1,44 @@
+﻿R e a d m e
+-----------
+
+This script creates three "modes" for your gas hauler ship. "unload", "load", and "transport" modes.
+You can force the ship into any of the modes by running the script with the name of the mode as the argument. 
+Otherwise the script will attempt to figure out which mode the ship should be in on its own.
+
+The script uses "tags" to identify fuel and hauling tanks, by default these tags are "fuel" and "haul". Simply put these tags in the names of the tanks to identify them for the script. 
+The tags are not case sensitive. The script will completely ignore any tanks without tags.
+The tags can be changed by configuration in the PB's custom data (explanation below).
+The script can't tell the difference between hydro and oxygen tanks so will manage them both if you use the tags.
+
+
+Unload Mode: turns on if the ship has at least one connector that is connected and the hauling tanks are filled to at least "unloadThresholdPercent" (default: 50% capacity)
+turns off stockpile for all hauling tanks
+turns on stockpile for all fuel tanks
+
+
+Load mode: Turns on if ship is docked and haul tanks are below the "unloadThresholdPercent"
+turns on stockpile for all hauling and fuel tanks
+
+Transport Mode: Turns on if ship is undocked
+Turns off stockpile for fuel tanks
+Turns on stockpile for haul tanks if storage is greater than or equal to "transportStockpileThresholPercent" (default 100%)
+		If you lower the threshold percentage below 100% the haul tanks may syphon gas from the fuel tanks while in transport
+
+
+If you use an argument to force the script into one of these modes it will be locked into that mode until you manually change the mode, or re-run the script with the "unlock" argument or recompile the script.
+
+Anytime you change any configuration or change the names/number of tanks you have on your ship you need to either recompile the script or run the argument "reset" so the script will pick up changes.
+"reset" will also unlock the script if it is locked into a mode.
+
+
+
+Configuration:
+
+To configure the script you need to create [config] section in the Custom Data of the programming block, below is an example with all configurable parameters set to defaults. Note you do not need to put a parameter in the config if you are ok with the default.
+
+
+[config]
+fuelTankTag=fuel
+haulTankTag=haul
+unloadThresholdPercent=50
+transportStockpileThresholPercent=100

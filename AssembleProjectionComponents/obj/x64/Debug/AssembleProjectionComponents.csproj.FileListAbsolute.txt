@@ -16,9 +16,9 @@ C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\b
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\bin\System.Numerics.Vectors.dll
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\bin\SixLabors.ImageSharp.xml
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\bin\SixLabors.Core.xml
+C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\obj\x64\Debug\AssembleProjectionComponents.csproj.AssemblyReference.cache
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\obj\x64\Debug\AssembleProjectionComponents.exe.config
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\obj\x64\Debug\AssembleProjectionComponents.csproj.CoreCompileInputs.cache
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\obj\x64\Debug\AssembleProjectionComponents.csproj.CopyComplete
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\obj\x64\Debug\AssembleProjectionComponents.exe
 C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\obj\x64\Debug\AssembleProjectionComponents.pdb
-C:\Users\goodm\source\repos\SpaceEngineersScripts\AssembleProjectionComponents\obj\x64\Debug\AssembleProjectionComponents.csproj.AssemblyReference.cache

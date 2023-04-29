@@ -105,7 +105,7 @@ namespace IngameScript
             Echo("Min hydrogen storage: " + MIN_HYDROGEN_STORAGE.ToString("n1") + "%");
 
             MIN_POWER_STORAGE = float.Parse(config.Get("config", "minPowerStorage").ToString("50"));
-            Echo("Min power storage: " + MIN_HYDROGEN_STORAGE.ToString("n1") + "%");
+            Echo("Min power storage: " + MIN_POWER_STORAGE.ToString("n1") + "%");
 
             GENERATOR_CUTOFF = float.Parse(config.Get("config", "generatorCutoff").ToString("95"));
             Echo("Generator cut off: " + GENERATOR_CUTOFF.ToString("n1") + "%");

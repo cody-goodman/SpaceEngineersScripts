@@ -16,9 +16,9 @@ C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\bin\SixLabors.Cor
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\bin\System.Numerics.Vectors.dll
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\bin\SixLabors.ImageSharp.xml
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\bin\SixLabors.Core.xml
+C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\DeployFlares.csproj.AssemblyReference.cache
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\DeployFlares.exe.config
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\DeployFlares.csproj.CoreCompileInputs.cache
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\DeployFlares.csproj.CopyComplete
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\DeployFlares.exe
 C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\DeployFlares.pdb
-C:\Users\goodm\source\repos\SpaceEngineersScripts\DeployFlares\obj\x64\Debug\DeployFlares.csproj.AssemblyReference.cache
